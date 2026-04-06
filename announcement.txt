@@ -8,3 +8,71 @@
 운영진이 알아보지 못하게 기재하셨을 시 오답처리되는 점 유의바랍니다.
 
 그럼 파이팅~~🦁❤️
+----
+A1. 2
+
+A2. fruits.index([1])
+
+A3. 짝수입니다.
+
+A4. while문의 조건에 성립하지 않으므로 출력되지 않음. 
+do-while문은 조건을 무조건 한 번 실행해야 하므로 9가 출력된 후 더이상 출력되지 않음.
+
+A5. 
+
+A6. const lion = function(()=> {
+    console.log("자바스크립트 마스터를 해보자!")
+});
+
+A7. if const isLogin = true ? let answer = "환영합니다" : let answer = "접근권한이 없습니다."
+console.log(answer);
+
+A8. 
+
+let userInput = prompt("무엇을 말하고 싶나요?");
+
+if userInput.query === "끝" {
+    break;
+} else {
+    continue;
+}
+
+A9.
+let userInput = prompt("숫자를 입력하세요.: ");
+
+while (userInput >= 0) {
+    sum += userInput;
+    userInput--;
+
+    if userInput == o {
+        alert("1부터" + userInput + "까지의 합은" + sum + "입니다.");
+    }
+}
+
+A10.
+push()는 요소 맨 뒤에 새로운 요소가 붙는 배열 요소 추가 메서드이므로 arr=["old", 10, 233, true, "new"]가 된다.
+shift()는 요소 맨 앞에 있는 요소가 삭제되는 배열 요소 삭제 메서드이므로 arr=[10, 233, true]가 된다. 
+
+A11. push
+
+A12. person.hobby["drwaing"]
+
+A13. const name = document.getElementById("name");
+     const btn = document.getElementByInput("button");
+
+     btn.addEventListner("click", () => {
+        name++;
+        change(name);
+     });
+     
+
+A14. 
+const btn = document.getElementById("btn");
+btn.addEventListner("click", () => {
+    alert("버튼이 클릭됨!");
+});
+
+const btn = document.getElementById("btn");
+btn.addEventListner =("click")=> {
+    alert("버튼이 클릭됨!");
+};
